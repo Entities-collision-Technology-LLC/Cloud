@@ -7,7 +7,7 @@
 ![PHP](https://badgen.net/badge/PHP/7.3+/orange)
 
 ## 正在做的
-- [ ] 用户登陆/注册
+- [x] 用户登陆/注册
 - [ ] 用户面板
  
 ## 准备做的
