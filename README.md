@@ -5,6 +5,17 @@
 
 ![PHP](https://badgen.net/badge/版本/测试版/red)
 ![PHP](https://badgen.net/badge/PHP/7.3+/orange)
+
+## 正在做的
+- [ ] 用户登陆/注册
+- [ ] 用户面板
+ 
+## 准备做的
+- [ ] EasyPanel对接
+- [ ] SolusVM对接
+- [ ] Proxmox对接
+- [ ] 使用[Chromedriver](https://chromedriver.chromium.org/downloads)控制Chrome完成各种WHMCS程序的对接
+- [ ] 
 ## 使用方法
 
 拉取仓库
@@ -17,6 +28,7 @@ git clone https://github.com/Ella-Alinda/Cloud
 ```
 composer install 
 ```
+> 安装 laravel/ui 拓展包，命令为 composer require laravel/ui，然后再运行 php artisan ui vue --auth 替换上面的 php artisan make:auth。编译前端资源可以使用命令 npm install && npm run dev
 
 完成数据库迁移
 ```
@@ -32,9 +44,6 @@ php artisan key:g
 > ```
 > composer self-update --2
 > ```
-
-> 需要先安装 laravel/ui 拓展包，命令为 composer require laravel/ui，然后再运行 php artisan ui vue --auth 替换上面的 php artisan make:auth。编译前端资源可以使用命令 npm install && npm run dev.
-
 
 更改.env文件 **复制 `.env.example` 为 `.env`** 并修改数据库
 
