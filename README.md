@@ -33,6 +33,9 @@ php artisan key:g
 > composer self-update --2
 > ```
 
+> 需要先安装 laravel/ui 拓展包，命令为 composer require laravel/ui，然后再运行 php artisan ui vue --auth 替换上面的 php artisan make:auth。编译前端资源可以使用命令 npm install && npm run dev.
+
+
 更改.env文件 **复制 `.env.example` 为 `.env`** 并修改数据库
 
 ```dotenv

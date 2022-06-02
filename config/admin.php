@@ -58,7 +58,7 @@ return [
     */
     'route' => [
 
-        'prefix' => env('ADMIN_ROUTE_PREFIX', 'user'),
+        'prefix' => env('ADMIN_ROUTE_PREFIX', 'admin'),
 
         'namespace' => 'App\\Admin\\Controllers',
 
