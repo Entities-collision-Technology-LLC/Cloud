@@ -15,7 +15,8 @@
 - [ ] SolusVM对接
 - [ ] Proxmox对接
 - [ ] 使用[Chromedriver](https://chromedriver.chromium.org/downloads)控制Chrome完成各种WHMCS程序的对接
-- [ ] 
+- [ ] 魔方云对接
+- [ ] XXXX对接
 ## 使用方法
 
 拉取仓库
